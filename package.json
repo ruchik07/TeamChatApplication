@@ -1,0 +1,23 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "InstaChat App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "chatapp",
+    "nodejs",
+    "socket.io"
+  ],
+  "author": "Sudhanshu Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
